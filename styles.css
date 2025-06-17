@@ -1,0 +1,144 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:root {
+  --primary-color: #fc9867; /* Accent/Primary elements */
+  --secondary-color: #ab9df2; /* Secondary accents */
+  --success-color: #a9dc76; /* Success/OK/Green */
+  --warning-color: #ffd866; /* Warnings/Yellow */
+  --error-color: #ff6188; /* Errors/Red */
+  --info-color: #78dce8; /* Info/Blue */
+
+  --main-text-color: #fcfcfa; /* Main foreground/text */
+  --secondary-text-color: #727072; /* Secondary text */
+  --muted-text-color: #939293; /* Muted/disabled text */
+
+  --dark-background-color: #2d2a2e; /* Main background */
+  --panel-background-color: #211f22; /* Panels, sidebars */
+  --highlight-background-color: #403e41; /* Selection/highlight */
+  --border-color: #403e41; /* Borders/dividers */
+  --input-background-color: #272528; /* Input fields */
+  --input-border-color: #403e41; /* Input borders */
+}
